@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.top{
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  overflow: hidden;
+}
+.top .logo,.top b{
+  float: left;
+}
+.top b{
+  font-size: 26px;
+  font-family: '宋体';
+  position: relative;
+  bottom: -22px;
+  margin-left: 10px;
+}
+.wj{
+  display: block;
+  font-size: 12px;
+  font-family: 'Arial';
+  color: #666;
+  position: relative;
+  top: 44px;
+  float: right;
+}
+.wj:hover{
+  color: red;
+  text-decoration: underline;
+}
+.wj img{
+  position: relative;
+  top: 4px;
+}
+.prompt{
+  width:100%;
+  background-color: #fff8f0;
+  padding: 8px 0;
+}
+.prompt-content{
+  width: 790px;
+  margin: 0 auto;
+}
+.prompt img{
+  position: relative;
+  top: 4px;
+}
+.prompt span{
+  font-size: 12px;
+  font-family: 'Arial';
+  color: #666;
+}
+.main{
+  width:100%;
+  height: 475px;
+  background-color:#e93854;
+}
+.main-content{
+  background-image: url("/imges/background.png");
+  width: 900px;
+  height: 475px;
+  margin: 0 auto;
+}
+.from{
+  background-color: white;
+  width: 310px;
+  height: 345px;
+  float: right;
+  margin-top: 20px;
+}
+.from .login-left,.from .login-right{
+  float: left;
+  display: block;
+  width: 155px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 18px;
+  font-family: 'microsoft yahei';
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.from a{
+  display: inline-block;
+  color: black;
+  width: 155px;
+  height: 18px;
+  text-align: 18px;
+}
+.from a:hover{
+  color: #e93854;
+}
+.login{
+  display: inline-block;
+  position: relative;
+}
+.login label{
+  width: 38px;
+  height: 39px;
+}
+.login input[name='user'],.login input[name='pwd']{
+  width: 210px;
+  height: 18px;
+  padding: 10px 0 10px 50px;
+  border: 1px solid rgb(173, 173, 173);
+  outline: none;  /* 去除选中文本框时的边框 */
+}
+.login input[name='user']{
+  margin: 30px 25px;
+}
+.login input[name='pwd']{
+  margin: 0 25px;
+}
+.login label[for='user']{
+  position: absolute;
+  top: 31px;
+  left: 26px;
+  background-image: url(/imges/pwd-icons-new.png);
+  border-right: 1px solid rgb(173, 173, 173);
+}
+.login label[for='pwd']{
+  position: absolute;
+  top: 100px;
+  left: 26px;
+  background: url(/imges/pwd-icons-new.png) -48px 1px no-repeat;
+  border-right: 1px solid rgb(173, 173, 173);
+}
+.pass{
+  display: block;
+  float: right;
+}
+.pass a{
+  width: 48px;
+  font-size: 12px;
+  font-family: 'Arial';
+  color: #666;
+  position: absolute;
+  top: 170px;
+  right: 30px;
+}
+.pass a:hover{
+  text-decoration:underline;
+}
+.submit input{
+  width: 290px;
+  height: 35px;
+  position: absolute;
+  top: 205px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+  background-color: #e93854;
+  border: #e93854;
+  cursor: pointer;
+  outline: none;  /* 去除选中文本框时的边框 */
+}
+.bottom{
+  width: 990px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.bottom li{
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Arial';
+}
+.bottom li a{
+  padding: 0 5px;
+  color: #666;
+  border-right: 1px solid #666;
+}
+.bottom li:last-child a{
+  border:none;
+}
+.bottom li a:hover{
+  color: #e93854;
+  text-decoration:underline;
+}
+.copyright{
+  font-size: 12px;
+  font-family: 'Arial';
+  color: #666;
+  margin: 10px 0;
+}
